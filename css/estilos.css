@@ -1,0 +1,38 @@
+#carrito {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#carrito h3 {
+  margin-top: 0;
+}
+
+#productos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#productos li {
+  margin-bottom: 10px;
+}
+
+#productos li span {
+  font-weight: bold;
+}
+
+#productos li button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#productos li button:hover {
+  background-color: #45a049;
+}
+
+#productos li button:active {
+  background-color: #3e8e41;
+}
